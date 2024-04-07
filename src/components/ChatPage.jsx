@@ -77,9 +77,9 @@ function ChatPage() {
   
               
             </div>
-            <div className="textmsg mt-5">
-                <input type="text" className="rounded inpbx mt-5" placeholder='Type Message...' onChange={(e) => setTypeMessage(e.target.value)} value={typeMessage} style={{ height: '40px' }} />
-                <button onClick={send} className='btn btn-success snt mt-5' style={{ width: '10%', height: '44px' }}><i className="fa-regular fa-paper-plane" style={{ color: "#fcfcfc" }}></i></button>
+            <div className="textmsg">
+                <input type="text" className="rounded inpbx mt-1 mb-3" placeholder='Type Message...' onChange={(e) => setTypeMessage(e.target.value)} value={typeMessage} style={{ height: '40px' }} />
+                <button onClick={send} className='btn btn-success snt mt-1 mb-3' style={{ width: '10%', height: '44px' }}><i className="fa-regular fa-paper-plane" style={{ color: "#fcfcfc" }}></i></button>
               </div>
           </div>
 
